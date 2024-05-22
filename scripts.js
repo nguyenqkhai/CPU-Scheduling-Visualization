@@ -197,7 +197,7 @@ function displayGanttChart(ganttChartInfo) {
     ganttChartInfo.forEach(item => {
         const bar = document.createElement('div');
         bar.classList.add('gantt-bar');
-        bar.style.width = `${(item.stop - item.start) * 20}px`;
+        bar.style.width = `${(item.stop - item.start + 1) * 20}px`;
         bar.style.backgroundColor = getRandomColor();
         bar.innerText = item.job;
 

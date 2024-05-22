@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: calc(100% - 60px); /* Ensure the container width accounts for the margins */
+    width: calc(100% - 60px); 
     max-width: 100%;
     background-color: white;
     margin-top: 40px;
